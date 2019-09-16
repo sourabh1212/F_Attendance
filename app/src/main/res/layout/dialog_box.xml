@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter New Subject"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_margin="15dp"/>
+
+    <EditText
+        android:id="@+id/dilog_SubName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Subject Name"
+    android:layout_gravity="center"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/dilog_AttClasses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No.of attended Classes"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/dilog_missClassses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No.of missed Classes"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+
+
+</LinearLayout>

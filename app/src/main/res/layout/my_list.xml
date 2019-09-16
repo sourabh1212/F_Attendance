@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_marginLeft="6dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginRight="6dp"
+    android:layout_marginBottom="3dp"
+    android:alpha="0.70"
+    android:background="@drawable/style_list"
+    android:padding="10dp"
+    android:visibility="visible">
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/miss"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:text="DELETE" />
+
+    <ImageView
+        android:id="@+id/right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_toLeftOf="@+id/cross"
+        android:src="@drawable/right" />
+
+    <ImageView
+        android:id="@+id/cross"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/cross" />
+
+    <TextView
+        android:id="@+id/percentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub_name"
+        android:padding="5dp"
+        android:text="00.0%"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/att"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub_name"
+        android:layout_alignParentRight="true"
+        android:text="0000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/miss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub_name"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/att"
+        android:text="0000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/required"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/percentage"
+        android:padding="5dp"
+        android:text="required"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/sub_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="subname"
+        android:textColor="#6638e2"
+        android:textSize="26sp" />
+
+
+</RelativeLayout>

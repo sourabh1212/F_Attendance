@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/darker_gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/bleuback" />
+        <Button
+            android:id="@+id/addNew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AddNew Subject"
+            android:background="#8657c5"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ListView
+            android:id="@+id/SubListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/addNew"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="10dp"/>
+
+
+
+</RelativeLayout>
